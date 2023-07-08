@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article{
+    flex:1;
+    overflow-y: auto;
+    color: blue;
+}
+
+aside{
+    flex:2;
+    overflow-y: auto;
+}
