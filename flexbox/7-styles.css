@@ -260,6 +260,10 @@
   
   /* Header
       ============================= */
+
+  .header-container{
+    align-items: center;
+  }
   
   .header {
     padding: var(--header-padding);
